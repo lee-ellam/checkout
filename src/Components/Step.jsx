@@ -6,14 +6,14 @@ export default class Step extends Component{
     // history.go(-1);
   }
 
-  validate() {
+  isValid() {
     // Handle form validation or return true
     return true;
   }
 
   submit() {
     // Validate
-    const valid = this.validate();
+    const valid = this.isValid();
     if (valid) {
       return fetch(this.props.url);
     }

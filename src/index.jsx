@@ -17,7 +17,10 @@ const initialState = Map({
       image: '//images.justgiving.com/image/b410179a-2042-4c6b-903b-df106b48fc3c.jpg?template=size200x200'
     })
   }),
-  currency: 'GBP'
+  currency: 'GBP',
+  amount: 0,
+  direct_debit: false,
+  hide_donation: false
 });
 
 const store = createStore(reducer, initialState);

@@ -6,7 +6,10 @@ import DonationAmount from '../Components/DonationAmount';
 function mapStateToProps(state) {
   return {
     origin: state.get('origin').toJS(),
-    currency: state.get('currency')
+    currency: state.get('currency'),
+    amount: state.get('amount'),
+    directDebit: state.get('direct_debit'),
+    hideDonation: state.get('hide_donation')
   };
 }
 
