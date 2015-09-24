@@ -18,7 +18,6 @@ const initialState = Map({
     })
   }),
   currency: 'GBP',
-  amount: 0,
   direct_debit: false,
   hide_donation: false
 });

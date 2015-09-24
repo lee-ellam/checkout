@@ -81,7 +81,6 @@ export default class DonationAmount extends Step{
 
 DonationAmount.propTypes = {
   currency: React.PropTypes.string.isRequired,
-  amount: React.PropTypes.number,
   changeAmount: React.PropTypes.func.isRequired,
   changeCurrency: React.PropTypes.func.isRequired
 };
